@@ -1,0 +1,2 @@
+all:
+	g++ -o Lucy  Main/main.cpp CPU/CPU.cpp CPU/CPU_Instruction.cpp Bus/Bus.cpp Cartridge/Cartridge.cpp PPU/PPU.cpp RAM/RAM.cpp Screen/Screen.cpp Timer/Timer.cpp Interrupt/Interrupt.cpp IO_Regs/IO_Regs.cpp LCD/LCD.cpp General/General.cpp DB/dbg.cpp -w -lSDL2
