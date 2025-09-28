@@ -32,7 +32,6 @@ void PixelList::AddPixel(U8 idColor)
         else
         {
             pixel = pixel->nextPixel;
-            // std::cout<<"dupa"<<std::endl;
         }
     }
 }
@@ -58,4 +57,5 @@ void PixelList::Reset()
     {
         PopPixel();
     }
+
 }
